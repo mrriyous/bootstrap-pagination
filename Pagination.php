@@ -21,7 +21,7 @@ class Pagination{
 		];
  	}
 
- 	public static function pagination_bleh($activePage,$groupsCount,$url,array $config = null){
+ 	public static function make($activePage,$groupsCount,$url,array $config = null){
  		if($groupsCount < 2){
  			return false;
  		}
